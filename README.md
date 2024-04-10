@@ -197,11 +197,11 @@ int main(void)
    while (1)
    {
 	  for ( int x = 1; x <= 200 ; x++ )
-		   	 	  {
-		   		  Lcd_cursor(&lcd, 1,7);
-		   	 	  Lcd_int(&lcd, x);
-		   	 	  HAL_Delay (1000);
-		   	 	  }
+     {
+      Lcd_cursor(&lcd, 1,7);
+      Lcd_int(&lcd, x);
+      HAL_Delay (1000);
+      }
    }
 
 }
